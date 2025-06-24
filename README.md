@@ -12,7 +12,7 @@ This repository contains automated end-to-end tests using WebdriverIO (WDIO) for
 - Git installed
 - Chrome browser installed
 
-### Install Dependencies
+### steps to run the tests
 
 1. Clone the repository (if you haven’t already):
 
@@ -21,11 +21,11 @@ git clone https://github.com/sashokkumar2389/webdriverIO-Tests.git
 cd webdriverIO-Tests
 
 
-### Install npm Packages
+2. Install npm Packages
 
 npm install
 
-### run Tests
+3. run Tests
 
 npx wdio run wdio.conf.js
 
