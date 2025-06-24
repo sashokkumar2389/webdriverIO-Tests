@@ -24,11 +24,13 @@ cd webdriverIO-Tests
 
 2. Install npm Packages
 
+```bash
 npm install
 
 ---
 
 3. run Tests
 
+```bash
 npx wdio run wdio.conf.js
 
