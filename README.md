@@ -21,11 +21,11 @@ git clone https://github.com/sashokkumar2389/webdriverIO-Tests.git
 cd webdriverIO-Tests
 
 
-2. Install npm Packages:
+### Install npm Packages
 
 npm install
 
-3. To run the Tests 
+### run Tests
 
 npx wdio run wdio.conf.js
 
