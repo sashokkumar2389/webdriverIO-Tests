@@ -32,7 +32,7 @@ describe('SurveyMonkey Developer Header Navigation', () => {
     it('should click Docs link', async () => {
         await HeaderPage.clickDocs();
         const url = await browser.getUrl();
-        expect(url).toContain('/api/v3/#SurveyMonkey-Api');
+        expect(url).toContain('https://developer.surveymonkey.com/api/v3/');
     });
 
     it('should click FAQ link', async () => {
